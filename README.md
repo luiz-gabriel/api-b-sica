@@ -1,6 +1,6 @@
 # Primeira api utilizando o framework lumen
 
-Minha primeira api com o framework lumen
+Minha primeira api com o framework lumen.
 
 ## Lumen PHP Framework
 
