@@ -46,5 +46,5 @@ Deleta o usuário pelo id.
 
 #### Tecnólogias usadas
 
-[Lumen 8](https://github.com/laravel/lumen)
-[Dingo Api](https://github.com/dingo/api)
+-[Lumen 8](https://github.com/laravel/lumen)
+-[Dingo Api](https://github.com/dingo/api)
