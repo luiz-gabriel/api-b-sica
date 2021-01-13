@@ -1,6 +1,11 @@
 # Primeira api utilizando o framework lumen
 
-Minha primeira api com o framework lumen.
+Minha primeira api com o framework lumen e dingo api.
+### Create User
+metodo post:
+```
+    /create/user
+```
 
 ## Lumen PHP Framework
 

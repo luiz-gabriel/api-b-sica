@@ -26,15 +26,15 @@ $app = new Laravel\Lumen\Application(
 
 $app->register(Dingo\Api\Provider\LumenServiceProvider::class);
 
-// $app['Dingo\Api\Exception\Handler']->setErrorFormat([
-//     'error' => [
-//         'message' => ':message',
-//         'errors' => ':errors',
-//         'code' => ':code',
-//         'status_code' => ':status_code',
-//         'debug' => ':debug'
-//     ]
-// ]);
+$app['Dingo\Api\Exception\Handler']->setErrorFormat([
+    'error' => [
+        'message' => ':message',
+        'errors' => ':errors',
+        'code' => ':code',
+        'status_code' => ':status_code',
+        'debug' => ':debug'
+    ]
+]);
 
 $app->withFacades();
 
