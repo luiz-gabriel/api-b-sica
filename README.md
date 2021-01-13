@@ -7,6 +7,8 @@ metodo post:
     /create/user
 ```
 
+Campos necessário para criar um usuário name,description,idade.
+
 ## Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
