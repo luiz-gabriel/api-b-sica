@@ -1,14 +1,48 @@
 # Primeira api utilizando o framework lumen
 
 Minha primeira api com o framework lumen e dingo api.
-### Create User
+
+### Criando usuário
 metodo post:
 ```
-    /create/user
+    api/create/user
 ```
 
-Campos necessário para criar um usuário name,description,idade.
+Campos necessário para criar um usuário name, description, idade.
 
+### Buscar usuário
+
+metodo get: 
+```
+    api/user/{id}
+```
+Valor retornado se o usuário existir id, name, decription, idade, create_at, update_at.
+
+### Atualizando usuário
+
+metodo post:
+```
+    api/update/user/{id}
+```
+Campos necessário para atualizar o usuário name, decription, idade.
+
+### Listar todos usuários
+
+metodo get:
+```
+    api/user/{id}
+```
+
+Lista todos usuário e suas informações.
+
+### Deletar usuário
+
+metodo get:
+```
+    api/delete/user/{id}
+```
+
+Deleta o usuário pelo id.
 ## Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
